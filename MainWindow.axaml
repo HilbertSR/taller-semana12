@@ -19,7 +19,7 @@
         <TextBox x:Name="Edad" Watermark = "Escribe tu edad"/>
 
         <StackPanel Orientation="Horizontal" Spacing="10">
-            <Button Content="Calcular" Click="Button_OnClick"/>
+            <Button Content="Presentar" Click="Button_OnClick"/>
             <Button Content="Limpiar" Click="Button_Clean"/>
         </StackPanel>
 
