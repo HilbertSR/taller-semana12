@@ -73,3 +73,4 @@ C:\Users\Sarmiento Reyes\DiplomadoDotNet\MiPresentacion\obj\Debug\net8.0\refint\
 C:\Users\Sarmiento Reyes\DiplomadoDotNet\MiPresentacion\obj\Debug\net8.0\MiPresentacion.pdb
 C:\Users\Sarmiento Reyes\DiplomadoDotNet\MiPresentacion\obj\Debug\net8.0\MiPresentacion.genruntimeconfig.cache
 C:\Users\Sarmiento Reyes\DiplomadoDotNet\MiPresentacion\obj\Debug\net8.0\ref\MiPresentacion.dll
+C:\Users\Sarmiento Reyes\DiplomadoDotNet\MiPresentacion\obj\Debug\net8.0\MiPresentacion.sourcelink.json
