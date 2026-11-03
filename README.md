@@ -73,5 +73,6 @@ Cada botón tiene un evento `Click` declarado en `MainWindow.axaml` y programado
    ```
 
 ## Pregunta de reflexión
-
-(Escribe aquí tu respuesta con tus propias palabras.)
+¿Cuál es la función de MainWindow.axaml y MainWindow.axaml.cs, y cómo se relacionan mediante x:Name y los eventos Click para permitir que el usuario interactúe con la aplicación?
+La función de MainWindow.axaml es crear la interfaz de la aplicación y MainWindow.axaml.cs tiene la función de crear la logica de como funcionan los botones de la interfaz.
+En MainWindow.axaml x:Name sirve para enviar los datos a MainWindow.axaml.cs para poder usar esos datos y guardarlos en una variable. Los eventos Click se vinculan a una clase en MainWindow.axaml.cs y de esa manera darle una funcion a los botones, sin eso no se pueden relacionar los datos o las acciones que el usuario ingresa al interactuar con la aplicación.
