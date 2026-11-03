@@ -1,0 +1,34 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="MiPresentacion.MainWindow"
+        Title="MiPresentacion">
+
+    <StackPanel Margin = "25"
+                Spacing="15">
+
+        <TextBlock Text="Mi primera aplicacion grafica"
+                   FontSize="24" />
+
+        <TextBox  x:Name="Nombre" Watermark = "Escribe tu nombre" />
+
+        <TextBox x:Name="Apellido" Watermark = "Escribe tu apellido"/>
+
+        <TextBox x:Name="Edad" Watermark = "Escribe tu edad"/>
+
+        <StackPanel Orientation="Horizontal" Spacing="10">
+            <Button Content="Calcular" Click="Button_OnClick"/>
+            <Button Content="Limpiar" Click="Button_Clean"/>
+        </StackPanel>
+
+        <TextBlock x:Name="Resultado" Text="Aqui aparece el resultado"/>
+
+        <Button Content="Cambiar Saludo"
+                Click="Button_Saludo"
+                HorizontalAlignment="Center" />
+
+    </StackPanel>
+
+</Window>
