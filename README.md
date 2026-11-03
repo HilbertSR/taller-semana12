@@ -43,12 +43,12 @@ Cada botón tiene un evento `Click` declarado en `MainWindow.axaml` y programado
 
 | Caso | Datos introducidos | Resultado esperado | Resultado obtenido |
 |---|---|---|---|
-| 1 | Datos válidos | Muestra la presentación | Sin Errores |
-| 2 | Nombre vacío | Muestra una advertencia | Sin Errores |
-| 3 | Apellido vacío | Muestra una advertencia | Sin Errores |
-| 4 | Edad con letras | Solicita una edad numérica | Sin Errores |
-| 5 | Edad negativa o cero | Rechaza la edad | Sin Errores |
-| 6 | Presionar Limpiar | Restablece el formulario | Sin Errores |
+| 1 | Datos válidos | Muestra la presentación | Muestra la presentación |
+| 2 | Nombre vacío | Muestra una advertencia | Muestra una advertencia |
+| 3 | Apellido vacío | Muestra una advertencia | Muestra una advertencia |
+| 4 | Edad con letras | Solicita una edad numérica | Solicita una edad numérica |
+| 5 | Edad negativa o cero | Rechaza la edad | Rechaza la edad |
+| 6 | Presionar Limpiar | Restablece el formulario | Restablece el formulario |
 
 ## Capturas de pantalla
 
